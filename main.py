@@ -33,5 +33,5 @@ while True:
 
             base_coins_list = current_coins_list
     except requests.HTTPError:
-        print('error, too many requests')
+        pass
     time.sleep(25)
